@@ -1,0 +1,45 @@
+/* Общие стили для body */
+body {
+    background-color: #343a40; /* Темный фон */
+    color: #ffffff; /* Белый цвет текста */
+    padding: 20px; /* Отступы вокруг страницы */
+    height: 100vh; /* Высота на весь экран */
+    display: flex; /* Используем flexbox для центрирования */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+}
+
+/* Стили для формы */
+#form {
+    background-color: #495057; /* Темный фон для формы */
+    padding: 20px; /* Отступы внутри формы */
+    border-radius: 8px; /* Закругленные углы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Тень для формы */
+    width: 100%; /* Ширина формы 100% */
+    max-width: 500px; /* Максимальная ширина формы */
+}
+
+/* Стили для заголовков и меток */
+.form-label {
+    font-weight: bold; /* Жирный шрифт для меток */
+    margin-top: 10px; /* Отступ сверху */
+}
+
+/* Стили для кнопки */
+.btn {
+    margin-top: 15px; /* Отступ сверху для кнопки */
+}
+
+/* Стили для полей ввода */
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+select {
+    margin-bottom: 15px; /* Отступ снизу для полей ввода */
+}
+
+/* Стили для радиокнопок и чекбоксов */
+.form-check-label {
+    margin-right: 15px; /* Отступ справа для меток радиокнопок и чекбоксов */
+}
