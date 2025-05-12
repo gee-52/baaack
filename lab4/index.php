@@ -97,7 +97,7 @@ function getErrorClass($fieldName) {
                             </div>
                         <?php endif; ?>
                         
-                        <form action="sub.php" method="POST" novalidate>
+                        <form action="mur.php" method="POST" novalidate>
                             <!-- Личные данные -->
                             <div class="mb-3">
                                 <label for="name" class="form-label">ФИО</label>
