@@ -1,9 +1,9 @@
 <?php
 // Конфигурация подключения к хранилищу данных
-$storage_server = '127.0.0.1';
-$storage_name = 'data_warehouse';
-$storage_user = 'data_manager';
-$storage_key = 'secure_key_12345';
+$storage_server = 'localhost';
+$storage_name = 'u68663';
+$storage_user = 'u68663';
+$storage_key = '9960714';
 
 // Функция для обработки исключений хранилища
 function handleStorageException($exception) {
