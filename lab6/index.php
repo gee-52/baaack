@@ -1,5 +1,5 @@
 <?php
-require 'data_storage.php';
+require 'db.php';
 
 // Инициализация системы контроля доступа
 try {
